@@ -16,6 +16,13 @@
                 </item>
                 <item guid="3b2190af-fb93-4561-9ee5-ff85ae072613" action="comment">
                     <command>
+                        <body>test9999</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <useFieldsInCommand>false</useFieldsInCommand>
+                </item>
+                <item guid="c75e7992-b7c0-4cf4-9b1b-c2afcbc1d927" action="comment">
+                    <command>
                         <body>test4</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
