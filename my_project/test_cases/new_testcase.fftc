@@ -16,7 +16,7 @@
                 </item>
                 <item guid="3b2190af-fb93-4561-9ee5-ff85ae072613" action="comment">
                     <command>
-                        <body>test3</body>
+                        <body>test4</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <useFieldsInCommand>false</useFieldsInCommand>
