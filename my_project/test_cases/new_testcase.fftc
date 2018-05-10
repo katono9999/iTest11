@@ -23,7 +23,7 @@
                 </item>
                 <item guid="c75e7992-b7c0-4cf4-9b1b-c2afcbc1d927" action="comment">
                     <command>
-                        <body>test5</body>
+                        <body>test4</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     <useFieldsInCommand>false</useFieldsInCommand>
