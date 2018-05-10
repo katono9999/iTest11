@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<testCase version="7.0.1.201802131446">
+    <procedures>
+        <item name="main">
+            <steps>
+                <item guid="82df929d-4d30-46ae-8840-1656b1a6f35d" action="open" session="t1">
+                    <command>
+                        <body>project://my_project/session_profiles/cmd.ffsp</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
+                        <stepProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                        <sessionProperties type="com.fnfr.svt.applications.cmd.CmdSessionProperties"/>
+                        <sessionClass type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                        <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    </applicationProperties>
+                </item>
+                <item guid="c4a8a603-394b-44d4-bb86-3c740ce42408" action="command" session="t1" normalOffset="1.821" estimatedStepExecutionTime="0.057">
+                    <command>
+                        <body>dir</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties">
+                        <completionProperties expectedIdleTime="0.154" expectedIdleTime.inherit="false"/>
+                    </applicationProperties>
+                </item>
+                <item guid="c8d4b665-d59b-4002-81c5-80b23f6b2359" action="command" session="t1" normalOffset="1.686">
+                    <command>
+                        <body>exit</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                </item>
+                <item guid="98ed2b91-034e-4d44-af4c-30bb66223f2a" action="close" session="t1" normalOffset="0.022">
+                    <applicationProperties type="com.fnfr.svt.editors.terminal.documents.StepDefaultProperties"/>
+                </item>
+            </steps>
+        </item>
+    </procedures>
+</testCase>
