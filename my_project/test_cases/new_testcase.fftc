@@ -14,6 +14,13 @@
                         <sessionVersion type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
                     </applicationProperties>
                 </item>
+                <item guid="3b2190af-fb93-4561-9ee5-ff85ae072613" action="comment">
+                    <command>
+                        <body>test</body>
+                    </command>
+                    <applicationProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
+                    <useFieldsInCommand>false</useFieldsInCommand>
+                </item>
                 <item guid="c4a8a603-394b-44d4-bb86-3c740ce42408" action="command" session="t1" normalOffset="1.821" estimatedStepExecutionTime="0.057">
                     <command>
                         <body>dir</body>
